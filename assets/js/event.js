@@ -1,8 +1,6 @@
 $(document).ready(function(){
 
     var queryURL = 'https://api.datausa.io/api?show=geo&year=latest&sumlevel=county&required=pop';
-
-
     var url = "http://api.datausa.io/api/?show=geo&sumlevel=state&required=avg_wage";
     
     d3.json(queryURL, function(json) {
